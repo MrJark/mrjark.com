@@ -1,2 +1,4 @@
 # mrjark.com
-I would like to create my own KISKIL blog with Wordpress 
+I would like to create my own simple and lean blog. 
+
+W.I.P.
