@@ -6,6 +6,7 @@ W.I.P.
 If you read this you cant talk to me in:
     twitter -> /mrjark7
     instagram -> /mr.jark
+    linkedIn -> /mrjark
     Web -> mrjark.com
 
 Reglasd de diseño UX/UI
