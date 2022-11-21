@@ -1,0 +1,29 @@
+
+/* FEATURES */
+
+:root {
+    --dark: #262c32;
+    --light: #FFFFF0;
+    --primary-1: #DB00A4;
+    --primary-2: #14E6EB;
+    --secondary: #F0DC29;
+    --positive: #99D34F;
+    --intermediate: #D3AE4F;
+    --negative: #D34F4F;
+};
+body {
+    font-family: 'Poppins', sans-serif; /*Title*/ 
+    font-family: 'Alegreya Sans', sans-serif; /*Text*/ 
+    font-family: 'Corinthia', cursive; /*Quot*/ 
+};
+
+/* HEADER */
+
+#header {
+    display: flex;
+}
+
+#logo {
+    margin: 0 ;
+    transform: scale(.2);
+}
