@@ -16,9 +16,27 @@
     --negative: #D34F4F;
 }
 body {
-    font-family: 'Poppins', sans-serif; /*Title*/ 
-    font-family: 'Alegreya Sans', sans-serif; /*Text*/ 
+    font-family: 'Poppins'; /*Title*/ 
+    font-family: 'Alegreya Sans'; /*Text*/ 
     font-family: 'Corinthia', cursive; /*Quote*/ 
     background: var(--light)
 }
+
+/* HEADER' STYLES */
+
+#header {
+    width: 70%;
+    border-bottom: #262c32 solid 4px;
+    
+}
+#logo {
+    width: 320px;
+
+}
+#button-menu{
+    width: 60px;
+    align-items: right;
+}
+
+/* HERO' STYLES */
 
