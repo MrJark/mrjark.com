@@ -83,4 +83,6 @@ main {
 }
 .social-icon {
     margin-left: 24px;
+    text-decoration: none;
+    
 }
