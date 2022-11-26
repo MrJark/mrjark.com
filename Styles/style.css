@@ -25,6 +25,9 @@ a {
     text-decoration: none;
     cursor:pointer;
 }
+button {
+    cursor: pointer;
+}
 
 /* HEADER' STYLES */
 
@@ -35,8 +38,9 @@ header {
 header nav {
     display: flex;
     justify-content: center;
-    margin: 36px;
-    border-bottom: 1px solid var(--dark);
+    margin: 36px 74px 0 74px;
+    padding-bottom: 36px;
+    border-bottom: 4px solid var(--dark);
 
 }
 header nav .nav-bar {
@@ -48,10 +52,34 @@ header nav .nav-bar {
     border: 0 solid var(--dark);
 }
 .button-menu {
-    display: grid;
-    grid-row: end;
+    display: flex;
+    
 }
-
+#logo {
+    width: 600px;
+    
+}
+#button-menu{
+    width: 100px;
+    
+}
 
 /* HERO' STYLES */
 
+main {
+    margin-top: 150px;
+    text-align: center;
+}
+#plan {
+    display: flex;
+    justify-content: start;
+    margin-left: 74px;
+}
+#social-icons {
+    display: flex;
+    justify-content: end;
+    margin-right: 74px;
+}
+.social-icon {
+    margin-left: 24px;
+}
