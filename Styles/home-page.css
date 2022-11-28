@@ -40,9 +40,8 @@ header nav {
     display: flex;
     justify-content: center;
     margin: 36px 74px 0 74px;
-    padding-bottom: 36px;
-    border-bottom: 4px solid var(--dark);
-
+    padding-bottom: 24px;
+    border-bottom: 2px solid var(--dark);
 }
 header nav .nav-bar {
     width: 250px;
