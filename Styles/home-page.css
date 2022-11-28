@@ -2,11 +2,10 @@
 /* FEATURES */
 * {
     margin: 0;
-    padding: 0;
+    /* padding: 0; */
 }
 :root {
     --dark: #262c32;
-
     --light: #FFFFF0;
     --primary-1: #DB00A4;
     --primary-2: #14E6EB;
@@ -39,9 +38,11 @@ header {
 header nav {
     display: flex;
     justify-content: center;
-    margin: 36px 74px 0 74px;
-    padding-bottom: 24px;
-    border-bottom: 2px solid var(--dark);
+    margin-top: 36px;
+    margin-bottom: 36px;
+    /* padding-bottom: 36px; */
+    
+    
 }
 header nav .nav-bar {
     width: 250px;
@@ -49,7 +50,6 @@ header nav .nav-bar {
     display: flex;
     list-style: none;
     justify-content: center;
-    border: 0 solid var(--dark);
 }
 .button-menu {
     display: flex;
@@ -67,21 +67,27 @@ header nav .nav-bar {
 /* HERO' STYLES */
 
 main {
-    margin-top: 150px;
     text-align: center;
+    display: grid;
+    margin: 0px 74px 24px 74px;
+    border-top: 1px solid var(--dark);
+    padding-top: 24px;
+}
+/* .description {
+    
+} */
+#I {
+    text-align: start;
 }
 #plan {
     display: flex;
     justify-content: start;
-    margin-left: 74px;
 }
 #social-icons {
     display: flex;
     justify-content: end;
-    margin-right: 74px;
+    
 }
 .social-icon {
-    margin-left: 24px;
-    text-decoration: none;
-    
+    margin-left: 24px;    
 }
