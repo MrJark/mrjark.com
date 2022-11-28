@@ -53,7 +53,7 @@ header nav .nav-bar {
 }
 .button-menu {
     display: flex;
-    
+    align-items: center;
 }
 #logo {
     width: 300px;
@@ -73,11 +73,13 @@ main {
     border-top: 1px solid var(--dark);
     padding-top: 24px;
 }
-/* .description {
-    
-} */
-#I {
+.intro, 
+.dream {
     text-align: start;
+}
+.button-and-photo{
+    display: grid;
+    justify-content: end;
 }
 #plan {
     display: flex;
@@ -86,6 +88,7 @@ main {
 #social-icons {
     display: flex;
     justify-content: end;
+    margin-right: 40px;
     
 }
 .social-icon {
