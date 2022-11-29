@@ -2,7 +2,7 @@
 /* FEATURES */
 * {
     margin: 0;
-    /* padding: 0; */
+    padding: 0;
 }
 :root {
     --dark: #262c32;
@@ -77,6 +77,10 @@ main {
     border-top: 1px solid var(--dark);
     padding-top: 16px;
 }
+.container-info {
+    display: flex;
+    justify-content: space-between;
+}
 .intro, 
 .dream {
     text-align: start;
@@ -88,9 +92,22 @@ main {
     display: grid;
     justify-content: end;
 }
-#plan {
+.button-blog{
+    width: 204px;
+    margin: 0 auto;
+    height: 36px;
+    background: #262c32;
+    border: 0;
+    font-size: 32px;
+    color: var(--light);
+    border-radius: 4px;
+    padding: 0 12px;
+}
+.plan {
     display: flex;
     justify-content: start;
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace ;
 }
 #social-icons {
     list-style: none;
