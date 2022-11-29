@@ -88,9 +88,13 @@ main {
 .intro {
     margin-bottom: 16px;
 }
+.description {
+    width: 377px;
+}
 .button-and-photo{
     display: grid;
     justify-content: end;
+    margin-right: 232px
 }
 .button-blog{
     width: 204px;
@@ -100,14 +104,18 @@ main {
     border: 0;
     font-size: 32px;
     color: var(--light);
-    border-radius: 4px;
-    padding: 0 12px;
+    border-radius: 40px;
+    
+    margin: 40px 0px 40px 0px;
 }
 .plan {
     display: flex;
     justify-content: start;
     list-style: none;
     font-family: 'Courier New', Courier, monospace ;
+}
+.quote-block{
+    margin: 20px 0px 60px 0px;
 }
 #social-icons {
     list-style: none;
