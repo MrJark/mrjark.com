@@ -24,6 +24,7 @@ body {
 a {
     text-decoration: none;
     cursor:pointer;
+    
 }
 button {
     cursor: pointer;
@@ -36,32 +37,35 @@ header {
     height: 100px;
 }
 header nav {
+    width: 100%;
     display: flex;
-    justify-content: center;
-    margin-top: 36px;
-    margin-bottom: 36px;
-    /* padding-bottom: 36px; */
-    
+    justify-content: space-between;
+    margin: 36px 0px 36px 0px;
+}
+.nav-bar-center{
+    display: flex;
     
 }
-header nav .nav-bar {
+.nav-bar-right{
+    display: flex;
+    margin-right: 40px;
+
+}
+/* header nav .nav-bar {
     width: 250px;
     height: auto;
     display: flex;
     list-style: none;
     justify-content: center;
-}
+} */
 .button-menu {
     display: flex;
-    align-items: center;
 }
 #logo {
-    width: 300px;
-    
+    width: 320px;
 }
 #button-menu{
-    width: 50px;
-    
+    width: 64px;
 }
 
 /* HERO' STYLES */
@@ -69,13 +73,16 @@ header nav .nav-bar {
 main {
     text-align: center;
     display: grid;
-    margin: 0px 74px 24px 74px;
+    margin: 12px 74px 24px 74px;
     border-top: 1px solid var(--dark);
-    padding-top: 24px;
+    padding-top: 16px;
 }
 .intro, 
 .dream {
     text-align: start;
+}
+.intro {
+    margin-bottom: 16px;
 }
 .button-and-photo{
     display: grid;
@@ -86,11 +93,12 @@ main {
     justify-content: start;
 }
 #social-icons {
+    list-style: none;
     display: flex;
     justify-content: end;
     margin-right: 40px;
     
 }
 .social-icon {
-    margin-left: 24px;    
+    margin-left: 24px;
 }
