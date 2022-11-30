@@ -3,6 +3,8 @@
 * {
     margin: 0;
     padding: 0;
+    
+    
 }
 :root {
     --dark: #262c32;
@@ -16,9 +18,9 @@
 
 }
 body {
-    font-family: 'Poppins'; /*Title*/
-    font-family: 'Alegreya Sans';  /* Text */
-    font-family: 'Corinthia'; /* Quote */
+    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Corinthia', cursive;
+    font-family: 'Poppins', sans-serif;
     background: var(--light)
 }
 a {
@@ -88,8 +90,11 @@ main {
 .intro {
     margin-bottom: 16px;
 }
+.intro p {
+    font-family: 'Alegreya Sans';
+}
 .description {
-    width: 377px;
+    width: 460px;
 }
 .button-and-photo{
     display: grid;
@@ -97,25 +102,31 @@ main {
     margin-right: 232px
 }
 .button-blog{
-    width: 204px;
-    margin: 0 auto;
-    height: 36px;
-    background: #262c32;
-    border: 0;
-    font-size: 32px;
-    color: var(--light);
-    border-radius: 40px;
+    width: auto;
+    height: auto;
+    border-radius: 100px;
     
-    margin: 40px 0px 40px 0px;
 }
+#button{
+    background-color: var(--dark);
+    color: var(--light);
+    width: auto;
+    margin: 4px ;
+    font-family: 'Poppins';
+    font-size: large;
+    border-radius: 100px;
+    padding: 4px 12px;
+} 
 .plan {
     display: flex;
     justify-content: start;
     list-style: none;
-    font-family: 'Courier New', Courier, monospace ;
+    font-family: 'poppins';
 }
 .quote-block{
     margin: 20px 0px 60px 0px;
+    font-family: 'corinthia';
+    font-size: larger;
 }
 #social-icons {
     list-style: none;
