@@ -121,7 +121,9 @@ main {
     display: flex;
     justify-content: start;
     list-style: none;
-    font-family: 'poppins';
+    font-family: 'Poppins', sans-serif;
+    text-decoration: underline;
+    cursor: pointer;
 }
 .quote-block{
     margin: 20px 0px 60px 0px;
